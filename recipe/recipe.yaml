@@ -23,7 +23,7 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }}
-    - fastcore >=1.14.3
+    - fastcore >=1.14.6
     - httpx
 
 tests:
