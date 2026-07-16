@@ -1,7 +1,8 @@
 schema_version: 1
 
 context:
-  version: "0.1.0"
+  version: "0.1.1"
+  python_min: "3.11"
 
 package:
   name: fastspec
@@ -9,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/f/fastspec/fastspec-${{ version }}.tar.gz
-  sha256: b81a01ecdf1f8995eb6c25eb32a3f8dabbd37c9a238432c907b88449590b269d
+  sha256: 9ea9ad62a7f3ab265dec8a2d0cce1a4a6a08909c60514154c1cac655b6798145
 
 build:
   number: 0
@@ -23,7 +24,7 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }}
-    - fastcore >=1.14.3
+    - fastcore >=1.14.6
     - httpx
 
 tests:
@@ -31,7 +32,7 @@ tests:
       imports:
         - fastspec
       pip_check: true
-      python_version: 
+      python_version:
         - ${{ python_min }}.*
         - "*"
 
