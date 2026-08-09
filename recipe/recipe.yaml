@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.1.4"
+  version: "0.2.0"
   python_min: "3.11"
 
 package:
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/f/fastspec/fastspec-${{ version }}.tar.gz
-  sha256: 32107e0773c62576a4fb82dd81dc7bc6c0cb06a6433401737d68112194bcc5fd
+  sha256: 3ed3be326f2ee2044fb3c6fbe8091c31ca11681a282d7906196b568e4275aac8
 
 build:
   number: 0
