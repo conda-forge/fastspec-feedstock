@@ -3,11 +3,13 @@ About fastspec-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/fastspec-feedstock/blob/main/LICENSE.txt)
 
-Home: https://pypi.org/project/fastspec/
+Home: https://github.com/AnswerDotAI/fastspec
 
 Package license: Apache-2.0
 
 Summary: Dynamic OpenAPI and discovery spec client for Python — turn any API spec into a fully-typed async client with attribute chaining, streaming, and file uploads
+
+Development: https://github.com/AnswerDotAI/fastspec
 
 Documentation: https://answerdotai.github.io/fastspec/
 
