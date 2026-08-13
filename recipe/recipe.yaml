@@ -40,8 +40,9 @@ about:
   summary: Dynamic OpenAPI and discovery spec client for Python — turn any API spec into a fully-typed async client with attribute chaining, streaming, and file uploads
   license: Apache-2.0
   license_file: LICENSE
-  homepage: https://pypi.org/project/fastspec/
+  homepage: https://github.com/AnswerDotAI/fastspec
   documentation: https://AnswerDotAI.github.io/fastspec/
+  repository: https://github.com/AnswerDotAI/fastspec
 
 extra:
   recipe-maintainers:
