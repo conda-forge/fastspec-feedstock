@@ -2,7 +2,6 @@ schema_version: 1
 
 context:
   version: "0.2.4"
-  python_min: "3.11"
 
 package:
   name: fastspec
@@ -25,7 +24,7 @@ requirements:
   run:
     - python >=${{ python_min }}
     - fastcore >=2.2.1
-    - httpx
+    - fasttransport >=0.0.2
 
 tests:
   - python:
@@ -40,8 +39,9 @@ about:
   summary: Dynamic OpenAPI and discovery spec client for Python — turn any API spec into a fully-typed async client with attribute chaining, streaming, and file uploads
   license: Apache-2.0
   license_file: LICENSE
-  homepage: https://pypi.org/project/fastspec/
+  homepage: https://github.com/AnswerDotAI/fastspec
   documentation: https://AnswerDotAI.github.io/fastspec/
+  repository: https://github.com/AnswerDotAI/fastspec
 
 extra:
   recipe-maintainers:
