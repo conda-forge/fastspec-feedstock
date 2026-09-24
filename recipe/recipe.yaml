@@ -23,7 +23,7 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }}
-    - fastcore >=2.2.1
+    - fastcore >=2.2.23
     - fasttransport >=0.0.2
 
 tests:
